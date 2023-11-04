@@ -13,16 +13,18 @@ public class For {
         for(int i = 1; i <= total_days; i++){
 
             if (i <= attended_days){
-                System.out.println("Day " + i + " attended");
-                total_marks = total_marks + marks_per_day;
+                System.out.println("Day " + i + ": attended");
+                total_marks += marks_per_day;
             }
             else{
-                System.out.println("Day " + i + " absent");
+                System.out.println("Day " + i + ": absent");
             }
         }
 
         System.out.println("Each day counts for 5 marks \n");
         System.out.println("This student attended " + attended_days + " days out of " + total_days + " days.");
         System.out.println("Total Marks: " + total_marks);
+        System.out.println("\nThanks for tracking the attendance.");
+        System.out.println("********\n");
     }
 }

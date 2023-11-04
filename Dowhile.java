@@ -1,11 +1,12 @@
 public class Dowhile {
     public static void main(String args[]){
 
-        System.out.println("We are evaluating John's salary in relation to country's average. \n");
+        System.out.println("\n We are evaluating John's salary in relation to country's average. \n");
 
-        // The following is John's salary
-        int salary = 200;
-        int c_average = 100;
+        // The following is John's income status based on his salary
+
+        int salary = 200; // This is John's salary
+        int c_average = 100; // This is the country's average salary
 
         do{
 
@@ -29,6 +30,8 @@ public class Dowhile {
             }
 
             break;
-        } while( salary < 1000); 
+        } while( salary < 1000); // We assue we are comparing those with salary below 1000 only
+
+        System.out.println("\n************************* \n");
     }     
 }
