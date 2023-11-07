@@ -7,6 +7,7 @@ class Interest{
     public double SimpleInterest(int principal, int years, double interest_rate){
         return principal * years * interest_rate/100;
     }
+    
     /* This method: Amount, calculates the amount Mr. Bob will have paid on a loan after certain 
     period of time with the principal amount included using compound interest */
 
