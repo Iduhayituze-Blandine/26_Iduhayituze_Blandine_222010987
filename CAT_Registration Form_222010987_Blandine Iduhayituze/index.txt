@@ -1,0 +1,16 @@
+The registration form contains seven fields
+First name
+Last name
+Gender
+Age
+Email
+Password
+Confirm Password
+
+For Gender, there is a combo box to choose from the genders provided. The user is not the one to type in, but chooses in the provided choices
+The confirm password is an additional field to check if the password matches. It gives an error message when the passwords doesn't match. 
+
+If any of the above fields is skipped, an error message stating the requirement is displayed. 
+If the passwords don't match, an error message stating the issue is displayed. 
+
+The newly created users goes into the database called studentregistration in a table called students. 
